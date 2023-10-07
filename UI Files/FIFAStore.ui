@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>633</width>
+    <height>545</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-60</x>
+     <y>0</y>
+     <width>411</width>
+     <height>561</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../images/fifa store.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>301</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+  font-family: Arial,sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+	color:white;
+
+background-color:rgba(0,0,0,130);
+border-radius:0px;</string>
+   </property>
+   <property name="text">
+    <string>&quot;From jerseys to scarves, find everything</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>180</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+  font-family: Arial,sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+	color:white;
+
+background-color:rgba(0,0,0,130);
+border-radius:0px;</string>
+   </property>
+   <property name="text">
+    <string> you need to support your team </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>20</y>
+     <width>251</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+  font-family: Times New Roman, serif;
+  font-size: 36px;
+  font-weight: bold;
+	color:white;
+
+</string>
+   </property>
+   <property name="text">
+    <string>FIFA STORE </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>0</y>
+     <width>191</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">Background-color:rgb(100, 100, 100)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>20</y>
+     <width>271</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>3</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Tab 1</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>221</width>
+       <height>371</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>Product ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Product Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Product Description</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Price</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Tab 2</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>221</width>
+       <height>371</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>Product ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Product Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Product Description</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Price</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>221</width>
+       <height>371</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>Product ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Product Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Product Description</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Price</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>221</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>Order ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Ordre DateTime</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Delivery Address</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>City</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>totalPrice</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>240</y>
+       <width>221</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>Order ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Ordre DateTime</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Delivery Address</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>City</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>totalPrice</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>210</y>
+       <width>141</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Order not Confirmed</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>20</y>
+       <width>141</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Confirmed Orders</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>450</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color:rgba(0,0,0,150);
+  color: #ffffff;
+  border: 1px solid grayrgb(50, 50, 50);
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+ }
+
+QPushButton:hover {
+  background-color: #555555;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Order</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>460</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color:rgba(0,0,0,150);
+  color: #ffffff;
+  border: 1px solid grayrgb(50, 50, 50);
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+ }
+
+QPushButton:hover {
+  background-color: #555555;
+ 
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Notifications</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>90</y>
+     <width>211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color:rgba(0,0,0,500);
+  color: #ffffff;
+  border: 1px solid grayrgb(50, 50, 50);
+
+  font-size: 12px;
+  font-weight: bold;
+
+
+
+  border-bottom-right-radius: 25px;
+}
+
+QPushButton:hover {
+  background-color: #555555;
+ 
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/back1.png</normaloff>../images/back1.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>290</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+	color: white;
+
+
+border-radius:0px;</string>
+   </property>
+   <property name="text">
+    <string>Enter Product IDs</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>330</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+  font-family: Arial,sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+	color:white;
+
+border-radius:0px;</string>
+   </property>
+   <property name="text">
+    <string>ENTER CITY</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>270</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,150);
+border:none;
+border-bottom:2px solid black;
+color:white;
+padding-bottom:7px;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>320</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,150);
+border:none;
+border-bottom:2px solid black;
+color:white;
+padding-bottom:7px;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>380</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+  font-family: Arial,sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+	color:white;
+
+border-radius:0px;</string>
+   </property>
+   <property name="text">
+    <string>Enter Address</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>370</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,150);
+border:none;
+border-bottom:2px solid black;
+color:white;
+padding-bottom:7px;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>460</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color:rgba(0,0,0,150);
+  color: #ffffff;
+  border: 1px solid grayrgb(50, 50, 50);
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+ }
+
+QPushButton:hover {
+  background-color: #555555;
+  }
+
+</string>
+   </property>
+   <property name="text">
+    <string>Jerseys</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>500</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color:rgba(0,0,0,150);
+  color: #ffffff;
+  border: 1px solid grayrgb(50, 50, 50);
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+ 
+}
+
+QPushButton:hover {
+  background-color: #555555;
+ 
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Other</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>500</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color:rgba(0,0,0,150);
+  color: #ffffff;
+  border: 1px solid grayrgb(50, 50, 50);
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+ }
+
+QPushButton:hover {
+  background-color: #555555;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Shoes</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

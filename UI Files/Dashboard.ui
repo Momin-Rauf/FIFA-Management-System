@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>767</width>
+    <height>636</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-150</x>
+     <y>-30</y>
+     <width>921</width>
+     <height>671</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../../../folio 1040 g3/Downloads/abc.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>140</y>
+     <width>221</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,175);
+border-radius:35px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>150</y>
+     <width>221</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,175);
+border-radius:35px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>170</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 20pt &quot;Monotype Corsiva&quot;;
+color:rgb(203, 255, 144);</string>
+   </property>
+   <property name="text">
+    <string>Accomodtion</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>220</y>
+     <width>181</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 20pt &quot;Monotype Corsiva&quot;;
+color:rgb(203, 255, 144);</string>
+   </property>
+   <property name="text">
+    <string>Football and luxury,</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/user.jpg</normaloff>../images/user.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>120</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>0</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color:rgba(0,0,0,200);
+  color: #ffffff;
+  border: 1px solid grayrgb(50, 50, 50);
+
+  font-size: 12px;
+  font-weight: bold;
+
+
+  border-bottom-right-radius: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+QPushButton:hover {
+  background-color: #555555;
+  box-shadow: 0 0 20px #ffffff;  /* increased shadow size */
+  transform: scale(1.1);  /* increased hover effect */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>120</y>
+     <width>221</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,175);
+
+  border-bottom-left-radius: 130px;
+
+  border-top-left-radius: 130px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>110</y>
+     <width>221</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,175);
+  border-bottom-left-radius: 130px;
+
+  border-top-left-radius: 130px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>221</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,175);
+
+  border-bottom-right-radius: 130px
+;
+  border-top-right-radius: 130px</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>100</y>
+     <width>231</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,175);
+
+  border-bottom-right-radius: 130px;
+
+  border-top-right-radius: 130px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>50</y>
+     <width>631</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 24pt &quot;Monotype Corsiva&quot;;
+color:rgb(203, 255, 144);</string>
+   </property>
+   <property name="text">
+    <string>&quot;The world's biggest celebration of football&quot;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>250</y>
+     <width>181</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 20pt &quot;Monotype Corsiva&quot;;
+color:rgb(203, 255, 144);</string>
+   </property>
+   <property name="text">
+    <string>all in one place&quot;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>170</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 20pt &quot;Monotype Corsiva&quot;;
+color:rgb(203, 255, 144);</string>
+   </property>
+   <property name="text">
+    <string>Flights</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 20pt &quot;Monotype Corsiva&quot;;
+color:rgb(203, 255, 144);</string>
+   </property>
+   <property name="text">
+    <string>FIFA Store </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>350</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color:rgba(0,0,0,150);
+ color:rgb(203, 255, 144);
+
+  border: 1px solid rgb(203, 255, 144);
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+ 
+  transition: all 0.3s ease-in-out;
+}
+
+QPushButton:hover {
+  background-color: #555555;
+  box-shadow: 0 0 20px #ffffff;  /* increased shadow size */
+  transform: scale(1.1);  /* increased hover effect */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Apply</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>350</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color:rgba(0,0,0,150);
+ color:rgb(203, 255, 144);
+
+  border: 1px solid rgb(203, 255, 144);
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+ }
+
+QPushButton:hover {
+  background-color: #555555;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Proceed</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_10">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>350</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color:rgba(0,0,0,150);
+ color:rgb(203, 255, 144);
+
+  border: 1px solid rgb(203, 255, 144);
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+ 
+  transition: all 0.3s ease-in-out;
+}
+
+QPushButton:hover {
+  background-color: #555555;
+  box-shadow: 0 0 20px #ffffff;  /* increased shadow size */
+  transform: scale(1.1);  /* increased hover effect */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Apply</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>200</y>
+     <width>181</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 20pt &quot;Monotype Corsiva&quot;;
+color:rgb(203, 255, 144);</string>
+   </property>
+   <property name="text">
+    <string>Where football and </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>270</y>
+     <width>231</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 20pt &quot;Monotype Corsiva&quot;;
+color:rgb(203, 255, 144);</string>
+   </property>
+   <property name="text">
+    <string> convenience meet</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>230</y>
+     <width>181</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 20pt &quot;Monotype Corsiva&quot;;
+color:rgb(144, 205, 169)
+</string>
+   </property>
+   <property name="text">
+    <string>and</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_21">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>191</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 20pt &quot;Monotype Corsiva&quot;;
+color:rgb(203, 255, 144);</string>
+   </property>
+   <property name="text">
+    <string>Find everything</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_22">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>260</y>
+     <width>221</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 20pt &quot;Monotype Corsiva&quot;;
+color:rgb(203, 255, 144);</string>
+   </property>
+   <property name="text">
+    <string>Support your team</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_23">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 20pt &quot;Monotype Corsiva&quot;;
+color:rgb(203, 255, 144);</string>
+   </property>
+   <property name="text">
+    <string>You need to </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>-11</y>
+     <width>771</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../images/abc.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_5</zorder>
+  <zorder>label</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_13</zorder>
+  <zorder>label_14</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_7</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>pushButton_11</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_15</zorder>
+  <zorder>label_16</zorder>
+  <zorder>label_17</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>pushButton_6</zorder>
+  <zorder>pushButton_10</zorder>
+  <zorder>label_18</zorder>
+  <zorder>label_19</zorder>
+  <zorder>label_20</zorder>
+  <zorder>label_21</zorder>
+  <zorder>label_22</zorder>
+  <zorder>label_23</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

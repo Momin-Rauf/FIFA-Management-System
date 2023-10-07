@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>662</width>
+    <height>605</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>70</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">COLOR:WHITE;
+FONT-SIZE:30PX;</string>
+   </property>
+   <property name="text">
+    <string>TICKET</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>100</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>37</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>360</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color:rgba(0,0,0,500);
+  color: #ffffff;
+  border: 1px solid grayrgb(50, 50, 50);
+
+  font-size: 12px;
+  font-weight: bold;
+
+
+  transition: all 0.3s ease-in-out;
+}
+
+QPushButton:hover {
+  background-color: #555555;
+  box-shadow: 0 0 20px #ffffff;  /* increased shadow size */
+  transform: scale(1.1);  /* increased hover effect */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Proceed</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>360</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color:rgba(0,0,0,500);
+  color: #ffffff;
+  border: 1px solid grayrgb(50, 50, 50);
+
+  font-size: 12px;
+  font-weight: bold;
+
+
+  transition: all 0.3s ease-in-out;
+}
+
+QPushButton:hover {
+  background-color: #555555;
+  box-shadow: 0 0 20px #ffffff;  /* increased shadow size */
+  transform: scale(1.1);  /* increased hover effect */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>470</y>
+     <width>661</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:darkgrey;
+</string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Tab 1</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Tab 2</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_5">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_6">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_7">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_8">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+   </widget>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>220</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(105,118,132,255);
+color:white;;
+font-size:12px;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Stand Class B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Stand Class C</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string extracomment="Select">Stand class A</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>VIP Box</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>220</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:16px;
+color:white;</string>
+   </property>
+   <property name="text">
+    <string>Select</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>20</y>
+     <width>471</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,175);
+border-radius:35px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color:rgba(0,0,0,500);
+  color: #ffffff;
+  border: 1px solid grayrgb(50, 50, 50);
+
+  font-size: 12px;
+  font-weight: bold;
+
+
+
+  border-bottom-right-radius: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+QPushButton:hover {
+  background-color: #555555;
+  box-shadow: 0 0 20px #ffffff;  /* increased shadow size */
+  transform: scale(1.1);  /* increased hover effect */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/back1.png</normaloff>../images/back1.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <zorder>label_6</zorder>
+  <zorder>label_3</zorder>
+  <zorder>line</zorder>
+  <zorder>label_4</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>tabWidget</zorder>
+  <zorder>comboBox</zorder>
+  <zorder>label_5</zorder>
+  <zorder>pushButton_11</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

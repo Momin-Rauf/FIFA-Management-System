@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>833</width>
+    <height>702</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(0, 0, 0)</string>
+  </property>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>861</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../images/Apayment.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>-10</y>
+     <width>721</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color:rgba(0,0,0,200);
+  color: #ffffff;
+  border: 1px solid grayrgb(50, 50, 50);
+
+  font-size: 12px;
+  font-weight: bold;
+
+
+  border-bottom-left-radius: 155px;
+  border-bottom-right-radius: 155px;
+
+  transition: all 0.3s ease-in-out;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>90</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>190</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color:rgba(0,0,0,250);
+  color: #ffffff;
+  border: 1px solid grayrgb(50, 50, 50);
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+ 
+  transition: all 0.3s ease-in-out;
+}
+
+QPushButton:hover {
+  background-color: #555555;
+  box-shadow: 0 0 20px #ffffff;  /* increased shadow size */
+  transform: scale(1.1);  /* increased hover effect */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Pay</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>100</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enter Debit Card No</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>140</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BANK</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>440</y>
+     <width>851</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: gray;</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>Ticket No</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>CNIC</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Hotel Reservation ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Flight Reservation ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Total Price</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+background-color:rgba(0,0,0,500);
+  color: #ffffff;
+  border: 1px solid grayrgb(50, 50, 50);
+
+  font-size: 12px;
+  font-weight: bold;
+
+
+
+  border-bottom-right-radius: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+QPushButton:hover {
+  background-color: #555555;
+  box-shadow: 0 0 20px #ffffff;  /* increased shadow size */
+  transform: scale(1.1);  /* increased hover effect */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/back1.png</normaloff>../images/back1.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>130</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>HBL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>SadaPay</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NayaPay</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MCB</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>360</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;</string>
+   </property>
+   <property name="text">
+    <string>Your Ticket</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;</string>
+   </property>
+   <property name="text">
+    <string>Your Ticket</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

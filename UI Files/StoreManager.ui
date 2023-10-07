@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>731</width>
+    <height>686</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>350</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+  color: #ffffff;
+  background-color: #222222;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: bold;
+ 
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+QPushButton:hover {
+  background-color: #555555;
+  box-shadow: 0 0 20px #ffffff;  /* increased shadow size */
+  transform: scale(1.1);  /* increased hover effect */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Add Item</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>60</y>
+     <width>261</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,160);
+border-radius:15px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_5">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>130</y>
+     <width>211</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(105,118,132,255);
+color:white;
+padding-bottom:2px;
+</string>
+   </property>
+   <property name="text">
+    <string>Enter Order ID</string>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>170</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+  color: #ffffff;
+  background-color: #222222;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+ 
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+QPushButton:hover {
+  background-color: #555555;
+  box-shadow: 0 0 20px #ffffff;  /* increased shadow size */
+  transform: scale(1.1);  /* increased hover effect */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Confirm</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>90</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;
+font-size:15px;</string>
+   </property>
+   <property name="text">
+    <string>Confirm Order</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>390</y>
+     <width>431</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Product ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Category</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Description</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Price</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>390</y>
+     <width>251</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Order ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Product IDs</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>CNIC</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DateTime</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>City</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Address</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Total Price</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton_10">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>300</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+  color: #ffffff;
+  background-color: #222222;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+ 
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+QPushButton:hover {
+  background-color: #555555;
+  box-shadow: 0 0 20px #ffffff;  /* increased shadow size */
+  transform: scale(1.1);  /* increased hover effect */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Discard</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>350</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+  color: #ffffff;
+  background-color: #222222;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: bold;
+ 
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+QPushButton:hover {
+  background-color: #555555;
+  box-shadow: 0 0 20px #ffffff;  /* increased shadow size */
+  transform: scale(1.1);  /* increased hover effect */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Delete Item</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_12">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>350</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+  color: #ffffff;
+  background-color: #222222;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: bold;
+ 
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+QPushButton:hover {
+  background-color: #555555;
+  box-shadow: 0 0 20px #ffffff;  /* increased shadow size */
+  transform: scale(1.1);  /* increased hover effect */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Update Item</string>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>0</y>
+     <width>401</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>2</number>
+   </property>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Tab 1</string>
+    </attribute>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>431</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,150);
+border-radius:15px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_3">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>120</y>
+       <width>211</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(105,118,132,255);
+color:white;
+padding-bottom:2px;
+</string>
+     </property>
+     <property name="text">
+      <string>Product Name</string>
+     </property>
+     <property name="placeholderText">
+      <string>Name</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_10">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>160</y>
+       <width>211</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(105,118,132,255);
+color:white;
+padding-bottom:2px;
+</string>
+     </property>
+     <property name="text">
+      <string>Product Description</string>
+     </property>
+     <property name="placeholderText">
+      <string>Name</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Select Category</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>20</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+font-size:25px;</string>
+     </property>
+     <property name="text">
+      <string>Add Item</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_4">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>200</y>
+       <width>211</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(105,118,132,255);
+color:white;
+padding-bottom:2px;
+</string>
+     </property>
+     <property name="text">
+      <string>Product Price</string>
+     </property>
+     <property name="placeholderText">
+      <string>Name</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>80</y>
+       <width>201</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(105,118,132,255);
+color:white;
+</string>
+     </property>
+     <property name="placeholderText">
+      <string>Category</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Football jerseys</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Football shoes</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Football accessories</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="pushButton_13">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>240</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+  color: #ffffff;
+  background-color: #222222;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: bold;
+ 
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+QPushButton:hover {
+  background-color: #555555;
+  box-shadow: 0 0 20px #ffffff;  /* increased shadow size */
+  transform: scale(1.1);  /* increased hover effect */
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string>Add</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>Tab 2</string>
+    </attribute>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>431</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,150);
+border-radius:15px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>30</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+font-size:25px;</string>
+     </property>
+     <property name="text">
+      <string>Delete Item</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_11">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>90</y>
+       <width>211</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(105,118,132,255);
+color:white;
+padding-bottom:2px;
+</string>
+     </property>
+     <property name="text">
+      <string>Enter Product ID</string>
+     </property>
+     <property name="placeholderText">
+      <string>Name</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_14">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>210</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+  color: #ffffff;
+  background-color: #222222;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: bold;
+ 
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+QPushButton:hover {
+  background-color: #555555;
+  box-shadow: 0 0 20px #ffffff;  /* increased shadow size */
+  transform: scale(1.1);  /* increased hover effect */
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string>Delete</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_5">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>431</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,150);
+border-radius:15px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_12">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>160</y>
+       <width>211</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(105,118,132,255);
+color:white;
+padding-bottom:2px;
+</string>
+     </property>
+     <property name="text">
+      <string>New Product Description</string>
+     </property>
+     <property name="placeholderText">
+      <string>Name</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_13">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>200</y>
+       <width>211</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(105,118,132,255);
+color:white;
+padding-bottom:2px;
+</string>
+     </property>
+     <property name="text">
+      <string>New Product Price</string>
+     </property>
+     <property name="placeholderText">
+      <string>Name</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>20</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+font-size:25px;</string>
+     </property>
+     <property name="text">
+      <string>Update Item</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_15">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>240</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+  color: #ffffff;
+  background-color: #222222;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: bold;
+ 
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+QPushButton:hover {
+  background-color: #555555;
+  box-shadow: 0 0 20px #ffffff;  /* increased shadow size */
+  transform: scale(1.1);  /* increased hover effect */
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string>Update</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_15">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>80</y>
+       <width>211</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(105,118,132,255);
+color:white;
+padding-bottom:2px;
+</string>
+     </property>
+     <property name="text">
+      <string>Product ID</string>
+     </property>
+     <property name="placeholderText">
+      <string>Name</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_16">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>120</y>
+       <width>211</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(105,118,132,255);
+color:white;
+padding-bottom:2px;
+</string>
+     </property>
+     <property name="text">
+      <string>New Product Name</string>
+     </property>
+     <property name="placeholderText">
+      <string>Name</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_16">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>10</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+  color: #ffffff;
+  background-color: #222222;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+ 
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+QPushButton:hover {
+  background-color: #555555;
+  box-shadow: 0 0 20px #ffffff;  /* increased shadow size */
+  transform: scale(1.1);  /* increased hover effect */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Log Out</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>220</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;
+font-size:15px;</string>
+   </property>
+   <property name="text">
+    <string>Discard Order</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_6">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>260</y>
+     <width>211</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(105,118,132,255);
+color:white;
+padding-bottom:2px;
+</string>
+   </property>
+   <property name="text">
+    <string>Enter Order ID</string>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
